@@ -1,0 +1,26 @@
+h1 {
+  font-size: 20px;
+}
+
+#navbar {
+  height: 30px;
+  background-color: bisque;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  height: inherit;
+}
+
+.menu__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  height: inherit;
+}
+
+.menu__link {
+  text-decoration: none;
+}
